@@ -1,4 +1,4 @@
-package top.xvzonghui.hadoop;
+package top.xvzonghui.hadoop.example;
 
 import java.io.IOException;
 import java.util.StringTokenizer;

@@ -15,7 +15,7 @@ dependencies {
 
 jar {
     manifest {
-        attributes "Main-Class": "top.xvzonghui.hadoop.WordCount"
+        attributes "Main-Class": "top.xvzonghui.hadoop.example.WordCount"
     }
     doFirst {
         from { configurations.runtime.collect{zipTree(it)} }
